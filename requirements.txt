@@ -1,0 +1,21 @@
+# ============================================================
+#  SentimentAI — Python Dependencies
+#  Install with: pip install -r requirements.txt
+# ============================================================
+
+# ── Web Framework ──────────────────────────────────────────
+Flask==3.0.3
+
+# ── NLP / ML ───────────────────────────────────────────────
+transformers==4.44.2
+torch==2.12.1                # CPU build; use torch==2.4.1+cu121 for CUDA GPU
+sentencepiece==0.2.1        # Tokenizer dependency for some HF models
+
+# ── Database ────────────────────────────────────────────────
+pymongo==4.8.0
+
+# ── Charts ──────────────────────────────────────────────────
+matplotlib==3.9.2
+
+# ── Utilities ───────────────────────────────────────────────
+python-dotenv==1.0.1        # Optional: load .env for MONGO_URI override
