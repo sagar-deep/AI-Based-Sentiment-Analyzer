@@ -1,14 +1,14 @@
-# Sentiment AI (AI-Based Sentiment Analyzer)
+# AI-Based Sentiment Analyzer
 
-> **Internship Project** | Flask · HuggingFace Transformers · MongoDB · Matplotlib
+| Flask · HuggingFace Transformers · MongoDB · Matplotlib |
 
-Analyzes social media posts and product reviews using a fine-tuned RoBERTa model to
-predict **Positive**, **Negative**, or **Neutral** sentiment with a confidence score.
+
+Analyzes text, customer reviews, comments, and social media content using a fine-tuned RoBERTa model to predict **Positive**, **Negative**, or **Neutral** sentiment with confidence scores.
 All results are persisted to MongoDB and visualized with interactive charts.
 
 ---
 
-## 📸 Features
+## Features
 
 | Feature | Details |
 |---|---|
@@ -72,8 +72,8 @@ sentiment_analyzer/
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/sentiment-analyzer.git
-cd sentiment-analyzer
+git clone https://github.com/sagar-deep/AI-Based-Sentiment-Analyzer.git
+cd AI-Based-Sentiment-Analyzer
 ```
 
 ---
@@ -107,7 +107,11 @@ pip install -r requirements.txt
 ### Step 4 — Configure Environment
 
 ```bash
+# Linux / macOS
 cp .env.example .env
+
+# Windows
+copy .env.example .env
 ```
 
 Edit `.env` if needed:
@@ -242,18 +246,3 @@ Each document in the `analyses` collection:
 | Charts | Matplotlib |
 | Frontend | HTML5, CSS3, Vanilla JS |
 | Fonts | Google Fonts (Inter, Space Grotesk) |
-
----
-
-## Internship Notes
-
-This project was developed as part of an internship program to demonstrate:
-
-- Integration of pre-trained NLP models into a production web app
-- RESTful API design with Flask
-- NoSQL database operations with MongoDB
-- Data visualization and reporting
-- Responsive UI/UX design without a frontend framework
-- Clean project structure with documentation and comments
-
----
